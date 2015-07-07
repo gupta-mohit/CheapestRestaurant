@@ -1,7 +1,9 @@
 package com.mohit.restaurant;
 import java.util.HashSet;
 import java.util.Set;
-
+/*
+ * Model class for menu item
+ */
 class MenuItem {
 
 	private String name;

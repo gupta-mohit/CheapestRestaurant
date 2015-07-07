@@ -144,7 +144,7 @@ public class CheapestRestaurant {
 
 	/*
 	 * This method adds Current ordered item to the list containing desired labels for the Current Menu item
-	 * And check for the desired cart size and minimum price. 
+	 * And check for the desired order items  size and minimum price. 
 	 */
 	private static boolean addItemToCurrMenuItem(MenuItem currentMenuItem, String labelToBuy) {		
 		currentMenuItem.getSetOfOrderedItemInCurrItem().add(labelToBuy);
